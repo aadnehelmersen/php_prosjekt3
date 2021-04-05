@@ -1,0 +1,2 @@
+URL til bilkonfigurator: http://folk.ntnu.no/aadnehh/PHP/bilkonfig.php 
+Du kan logge inn på admin-siden med brukernavn og passord "test". 

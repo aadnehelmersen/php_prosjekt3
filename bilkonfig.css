@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+}
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+
+.content {
+  width: 50%;
+  margin: auto;
+  padding:20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.content .skjema{
+  flex: 80%;
+  text-align: center;
+  border-color: #1abc9c;
+  padding: inherit;
+}
+.content .oppsummering{
+  margin-top: 20px;
+  flex: 50%;
+  text-align: center;
+  border-style: solid;
+  border-color: #1abc9c;
+}
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1abc9c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .utvendig, .oppsummering {
+    flex: 100%;
+  }
+}
